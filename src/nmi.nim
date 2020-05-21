@@ -86,10 +86,11 @@ proc colorful(text: string): string =
   let yellow = ":."
   let black = "@%#*+="
   result = text
+  result = result.replace(" ", &"\x1b[47m \x1b[0m")
   for c in yellow:
-    result = result.replace($c, &"\x1b[34m{c}\x1b[0m")
+    result = result.replace($c, &"\x1b[43m \x1b[0m")
   for c in black:
-    result = result.replace($c, &"\x1b[30m{c}\x1b[0m")
+    result = result.replace($c, &"\x1b[40m \x1b[0m")
 
 proc traverse(text: string, color: bool) =
   let width = terminalWidth() - 5
