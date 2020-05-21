@@ -6,7 +6,6 @@ type
     useHelp, useVersion, color: bool
 
 const
-  nimEmoji = "👑"
   nimAscii = """
                                                                
                               :::                              
@@ -54,7 +53,7 @@ Usage:
 Options:
     -h, --help                       Print this help
     -v, --version                    Print version
-    -c, --color                      Debug on
+    -c, --color                      Colorful print
 """
 
 proc getCmdOpts(params: seq[string]): Options =
