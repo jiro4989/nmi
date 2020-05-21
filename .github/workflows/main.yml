@@ -48,7 +48,7 @@ jobs:
           key: ${{ runner.os }}-nimble-${{ hashFiles('*.nimble') }}
       - uses: jiro4989/setup-nim-action@v1.0.2
       - run: nimble build -Y
-      - run: nimble test -Y
+        #- run: nimble test -Y
       - name: Archive files
         run: nimble archive
       - name: Release
