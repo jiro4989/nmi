@@ -6,6 +6,8 @@ nmi
 
 |demo_1|
 
+|demo_2|
+
 This is a Nim project template.
 You must run command at first.
 
@@ -42,3 +44,4 @@ MIT
 .. |nimble-install| image:: https://nimble.directory/ci/badges/nmi/nimdevel/status.svg
    :target: https://nimble.directory/ci/badges/nmi/nimdevel/output.html
 .. |demo_1| image:: ./docs/demo_1.gif
+.. |demo_2| image:: ./docs/demo_2.gif
