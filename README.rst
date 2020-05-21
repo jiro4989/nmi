@@ -4,7 +4,7 @@ nmi
 
 |nimble-version| |nimble-install| |gh-actions|
 
-TODO
+|demo_1|
 
 This is a Nim project template.
 You must run command at first.
@@ -41,3 +41,4 @@ MIT
    :target: https://nimble.directory/ci/badges/nmi/nimdevel/output.html
 .. |nimble-install| image:: https://nimble.directory/ci/badges/nmi/nimdevel/status.svg
    :target: https://nimble.directory/ci/badges/nmi/nimdevel/output.html
+.. |demo_1| image:: ./docs/demo_1.mp4
