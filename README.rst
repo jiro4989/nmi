@@ -5,6 +5,7 @@ nmi
 |nimble-version| |nimble-install| |gh-actions|
 
 nmi display animations aimed to correct users who accidentally enter nmi instead of nim.
+nmi is heavily inspired by ``sl`` .
 
 |demo_1|
 
