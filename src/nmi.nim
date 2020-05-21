@@ -37,8 +37,8 @@ const
                      +@@@@@@@@@@@@@@@@@@@                      
                              +@@@                              
 """
-  appName = "nimjson"
-  version = &"""{appName} command version 1.0.0
+  appName = "nmi"
+  version = &"""{appName} command version 1.0.1
 Copyright (c) 2020 jiro4989
 Released under the MIT License.
 https://github.com/jiro4989/nmi"""
