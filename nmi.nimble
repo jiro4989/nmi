@@ -5,7 +5,7 @@ author        = "jiro4989"
 description   = "TODO"
 license       = "MIT"
 srcDir        = "src"
-bin           = @["APPNAME"]
+bin           = @["nmi"]
 binDir        = "bin"
 
 
@@ -16,7 +16,7 @@ requires "nim >= 1.0.6"
 import os, strformat
 
 task archive, "Create archived assets":
-  let app = "APPNAME"
+  let app = "nmi"
   let assets = &"{app}_{buildOS}"
   let dir = "dist"/assets
   mkDir dir

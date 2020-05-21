@@ -1,6 +1,6 @@
 import unittest
 
-include APPNAME
+include nmi
 
 suite "suite":
   test "test":
