@@ -4,26 +4,21 @@ nmi
 
 |nimble-version| |nimble-install| |gh-actions|
 
+nmi display animations aimed to correct users who accidentally enter nmi instead of nim.
+
 |demo_1|
 
 |demo_2|
-
-This is a Nim project template.
-You must run command at first.
-
-.. code-block:: shell
-
-   nim c tool/setup.nim
-   tool/setup --author:<yourname> --appname:<application_name>
-
-This command replace and rename template strings of this repository.
 
 .. contents:: Table of contents
 
 Usage
 =====
 
-TODO
+.. code-block:: shell
+
+   $ nmi
+   $ nmi -c
 
 Installation
 ============
