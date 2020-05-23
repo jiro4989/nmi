@@ -28,6 +28,10 @@ Installation
 
    $ nimble install -Y nmi
 
+or
+
+Download from `Releases <https://github.com/jiro4989/nmi/releases>`_
+
 LICENSE
 =======
 
