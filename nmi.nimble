@@ -1,6 +1,6 @@
 # Package
 
-version       = "1.0.1"
+version       = "1.0.2"
 author        = "jiro4989"
 description   = "nmi display animations aimed to correct users who accidentally enter nmi instead of nim."
 license       = "MIT"

@@ -38,7 +38,7 @@ const
                              +@@@                              
 """
   appName = "nmi"
-  version = &"""{appName} command version 1.0.1
+  version = &"""{appName} command version 1.0.2
 Copyright (c) 2020 jiro4989
 Released under the MIT License.
 https://github.com/jiro4989/nmi"""
@@ -46,7 +46,7 @@ https://github.com/jiro4989/nmi"""
 {appName} display animations aimed to correct users who accidentally enter nmi instead of nim.
 
 Usage:
-    {appName} [options] [files...]
+    {appName} [options]
     {appName} (-h | --help)
     {appName} (-v | --version)
 
