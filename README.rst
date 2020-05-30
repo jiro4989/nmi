@@ -43,5 +43,5 @@ MIT
    :target: https://nimble.directory/ci/badges/nmi/nimdevel/output.html
 .. |nimble-install| image:: https://nimble.directory/ci/badges/nmi/nimdevel/status.svg
    :target: https://nimble.directory/ci/badges/nmi/nimdevel/output.html
-.. |demo_1| image:: ./docs/demo_1.gif
-.. |demo_2| image:: ./docs/demo_2.gif
+.. |demo_1| image:: https://user-images.githubusercontent.com/13825004/83327472-1e57b200-a2b7-11ea-80f3-025d5eba2102.gif
+.. |demo_2| image:: https://user-images.githubusercontent.com/13825004/83327473-20ba0c00-a2b7-11ea-8fe9-a8f4e6862d01.gif
