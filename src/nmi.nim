@@ -128,7 +128,7 @@ proc traverse(text: string, color: bool) =
     cursorUp(asciiHeight - 1)
     sleep 50
 
-when isMainModule:
+when isMainModule and not defined modeTest:
   when not defined windows:
     from posix import onSignal, SIGTERM, SIGINT
     onSignal(SIGTERM, SIGINT):
