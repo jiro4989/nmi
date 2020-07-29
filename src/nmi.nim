@@ -38,7 +38,7 @@ const
                              +@@@                              
 """
   appName = "nmi"
-  version = &"""{appName} command version 1.0.2
+  version = &"""{appName} command version 1.1.0
 Copyright (c) 2020 jiro4989
 Released under the MIT License.
 https://github.com/jiro4989/nmi"""
@@ -128,10 +128,20 @@ proc traverse(text: string, color: bool) =
     cursorUp(asciiHeight - 1)
     sleep 50
 
-when isMainModule:
+when isMainModule and not defined modeTest:
+  when not defined windows:
+    from posix import onSignal, SIGTERM, SIGINT
+    onSignal(SIGTERM, SIGINT):
+      discard
+
   let opts = commandLineParams().getCmdOpts()
   if opts.useHelp or opts.useVersion:
     quit 0
+
+  hideCursor()
+  eraseScreen()
+  setCursorPos(0, 0)
+  traverse(nimAscii, opts.color)
 
   proc closeFunc() {.noconv.} =
     showCursor()
@@ -139,8 +149,5 @@ when isMainModule:
     quit 1
 
   setControlCHook(closeFunc)
-  hideCursor()
-  eraseScreen()
-  setCursorPos(0, 0)
-  traverse(nimAscii, opts.color)
+
   showCursor()
